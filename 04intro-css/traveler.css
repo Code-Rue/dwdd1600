@@ -1,0 +1,120 @@
+body {
+    font-family: "Oxygen", sans-serif;
+    margin: 0;
+}
+
+/* header stuff here*/
+header {
+    background-color: #8d7c9d;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: #151325;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+
+/* navagation stuff here */
+nav {
+    background-color: #e246d0;
+}
+nav ul {
+    margin: 0;
+    padding: 0 12px;
+    list-style-type: none;
+    display: flex;
+    align-items: stretch;
+    gap: 12px;
+}
+
+nav a {
+    display: flex;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #151325;
+    font-weight: 700;
+}
+nav li.active a {
+    background-color: #151325;
+    color: #e246d0;
+    padding: .83rem 1rem;
+}
+nav li a:hover {
+    color: #d7adbe;
+}
+/* main stuff here */
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #ac4397;
+}
+main h2 {
+    color:#8d7c9d;
+    margin-bottom: .3rem;
+}
+main p {
+    margin: 0;
+    color:#151325;
+}
+main ol {
+    padding: .5rem 30px;
+    background-color: #d7adbe;
+}
+main dl dt {
+    color: #ac4397;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+main dl dd {
+    color: #6c587e;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+main ul {
+    list-style-type: circle;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main strong {
+    font-weight: 700;
+    color: black
+}
+main em {
+    font-weight: 300;
+}
+main address {
+    font-style: normal;
+    background-color: #d7adbe;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 1px solid #6c587e;
+    width: 200px;
+}
+main a {
+    color: #6c587e;
+}
+main a:hover {
+    color: rgb(172, 67, 151)
+}
+
+
+/* footer stuff here */
+footer {
+    background-color: #8d7c9d;
+    text-align: center;
+    padding: 1rem 0;
+}
+footer p {
+    margin: 0;
+    font-size: .8rem;
+    color: #333;
+    letter-spacing: 3px;
+}
