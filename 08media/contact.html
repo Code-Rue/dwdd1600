@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Rue Dominguez Cortez">
+    <meta name="description"
+        content="A guide built from my own journey to help beginners and fans find confidence, creativity, and joy in bringing their favorite characters to life.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxygen:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="traveler.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Cosplay 101: Where Characters Come Alive</title>
+</head>
+
+<body>
+    <!--start the page head-->
+    <header>
+      <img src="images/logo.png" alt="Logo for Cosplay 101" width="80" height="80">
+        <span>Cosplay 101</span>
+    </header>
+
+    <!--start the page navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">My Journey</a></li>
+            <li><a href="gettingstarted.html">Getting Started</a></li>
+            <li><a href="spotlight.html">Spotlight</a></li>
+            <li><a href="tutorials.html">Tutorials &amp; Tips</a></li>
+            <li><a href="events.html">Events &amp; Cons</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!--start the main content-->
+    <main>
+        <h1>Contact</h1>
+    <h2>Ask Questions, Share Ideas, or Plan Your Next Cosplay</h2>
+
+    <p>If you have questions about getting started, want feedback on a build, or need help getting ready for a con,
+      send me a message below. I love hearing from other cosplayers at every stage of their journey.</p>
+
+    <form method="get" action="thanks.html" class="contact-form">
+  <!-- About You -->
+  <fieldset>
+
+        <legend>About You</legend>
+
+        <p>
+          <label>
+            Full Name*<br>
+            <input type="text" name="fullname" required>
+          </label>
+        </p>
+
+        <p>
+          <label>
+            Email*<br>
+            <input type="email" name="email" required>
+          </label>
+        </p>
+
+        <p>
+          <label>
+            Phone<br>
+            <input type="tel" name="phone" placeholder="Optional">
+          </label>
+        </p>
+
+        <p>
+          <label>
+            Skill Level<br>
+            <select name="skill">
+              <option value="">Please select</option>
+              <option value="curious">Curious but new</option>
+              <option value="beginner">Beginner cosplayer</option>
+              <option value="intermediate">Intermediate builder</option>
+              <option value="advanced">Advanced / competition</option>
+            </select>
+          </label>
+        </p>
+
+        <p>
+          <label>
+            How many cosplays are you planning this year?<br>
+            <input type="number" name="plans" min="0" max="20">
+          </label>
+        </p>
+      </fieldset>
+
+      <!-- Interests -->
+      <fieldset>
+        <legend>Your Interests</legend>
+
+        <p>What are you most interested in right now?</p>
+
+        <p>
+          <label>
+            <input type="checkbox" name="interest-workshops" value="workshops">
+            Local workshops or meetups
+          </label>
+        </p>
+
+        <p>
+          <label>
+            <input type="checkbox" name="interest-build-help" value="build-help">
+            Help finishing a costume or prop
+          </label>
+        </p>
+
+        <p>
+          <label>
+            <input type="checkbox" name="interest-cons" value="cons">
+            Planning for conventions & events
+          </label>
+        </p>
+
+        <p>Are you going to a convention this year?</p>
+
+        <p>
+          <label>
+            <input type="radio" name="going-to-con" value="yes">
+            Yes
+          </label>
+        </p>
+
+        <p>
+          <label>
+            <input type="radio" name="going-to-con" value="no">
+            Not yet, but maybe in the future
+          </label>
+        </p>
+      </fieldset>
+
+      <!-- Message -->
+      <fieldset>
+        <legend>Your Message</legend>
+
+        <p>
+          <label>
+            How can I help?*<br>
+            <textarea name="message" rows="6" cols="40"
+              placeholder="Share your question, idea, or what you’re working on..."
+              required></textarea>
+          </label>
+        </p>
+
+        <p>
+          <label>
+            Preferred way to follow up<br>
+            <select name="contact-preference">
+              <option value="">Please select</option>
+              <option value="email">Email</option>
+              <option value="social">Social media (share in your message)</option>
+              <option value="in-person">In-person at a local con or meetup</option>
+            </select>
+          </label>
+        </p>
+      </fieldset>
+
+      <p>
+        <input type="submit" value="Send Message">
+      </p>
+    </form>
+
+
+    </main>
+
+    <!--start the page footer-->
+    <footer>
+        <p>&copy;2025 &bull; Rue Dominguez-Cortez &bull; Web Essentials</p>
+    </footer>
+</body>
+
+</html>
